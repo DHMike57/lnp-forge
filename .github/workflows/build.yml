@@ -2,9 +2,9 @@ name: Build LinuxDwarfPack package
 
 on:
   push:
-    #  pull_request:
-    #schedule:
-    #- cron: '0 0 * * 1'
+  pull_request:
+  schedule:
+    - cron: '0 0 * * 1'
 
 jobs:
   build:
